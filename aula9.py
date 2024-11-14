@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.title('Aplicação de filtragem de dataframes')
+
 df = pd.DataFrame({
     'nomeServidor': ['Adriana', 'Monica', 'Samara'],
     'salario': [1200,300,5000]
