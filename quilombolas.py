@@ -6,7 +6,6 @@ df = pd.read_csv('https://raw.githubusercontent.com/adrianalite/datasets/main/BR
 st.write(df.head())
 
 
-df.fillna(0, inplace=True) 
 df.drop(columns=['Unnamed: 0'], inplace=True)
 list = ['Lat_d', 'Long_d']
 # convertendo para numeros - tenta transformar os valores em números e substitui valores inválidos (como texto que não pode ser convertido) por NaN (Not a Number).
